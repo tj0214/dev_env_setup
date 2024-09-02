@@ -21,3 +21,6 @@ rm 파일명
 
 //디렉토리 삭제
 rm -r 디렉토리명
+
+//검색
+grep -r -i "color" | cut -d ":" -f2 | sort | uniq -c
